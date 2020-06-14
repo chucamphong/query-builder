@@ -1,0 +1,53 @@
+{
+  "_from": "@chuphong/query-builder@^1.0.14",
+  "_id": "@chuphong/query-builder@1.0.14",
+  "_inBundle": false,
+  "_integrity": "sha512-bTgzUhzKJLY63Ndu2sEO5OsvxVdxMzFeA5U5ybI79+U47iJp3Je6heeOtsn7C+f23lfFygPUzaMjT6ixqyEVIA==",
+  "_location": "/@chuphong/query-builder",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@chuphong/query-builder@^1.0.14",
+    "name": "@chuphong/query-builder",
+    "escapedName": "@chuphong%2fquery-builder",
+    "scope": "@chuphong",
+    "rawSpec": "^1.0.14",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.14"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@chuphong/query-builder/-/query-builder-1.0.14.tgz",
+  "_shasum": "b45944156da912544cc5131fbb0f8d511932a27d",
+  "_spec": "@chuphong/query-builder@^1.0.14",
+  "_where": "/mnt/e/Đồ án cơ sở/admin.cpmusic",
+  "author": {
+    "name": "Chu Phong",
+    "email": "chucamphong1999@gmail.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "deprecated": false,
+  "description": "Tạo url phục vụ cho thư viện spatie/laravel-query-builder.",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/lodash": "^4.14.150",
+    "jest": "^25.5.0",
+    "ts-jest": "^25.4.0",
+    "typescript": "^3.8.3"
+  },
+  "license": "ISC",
+  "main": "dist/index.js",
+  "name": "@chuphong/query-builder",
+  "private": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "jest"
+  },
+  "types": "@types/index.d.ts",
+  "version": "1.0.14"
+}
